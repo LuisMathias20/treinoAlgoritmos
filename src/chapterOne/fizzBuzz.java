@@ -30,7 +30,7 @@ public class fizzBuzz {
 	
 	//1
 	public static void fizzBuzzWithThree(int[] numbers) {
-		for(int i=0;i<numbers.length;i++){
+		for(int i = 0;i < numbers.length; i++){
             if (numbers[i] % 3 == 0) {
                 System.out.println(numbers[i]+" fizz");
             }
@@ -42,7 +42,7 @@ public class fizzBuzz {
 	
 	//2
 	public static void fizzBuzzWithThreeAndFive(int[] numbers) {
-        for(int i=0;i<numbers.length;i++){
+        for(int i = 0; i < numbers.length; i++){
             if(numbers[i]%3==0){
                 System.out.println(numbers[i]+" fizz");
             }
@@ -57,14 +57,14 @@ public class fizzBuzz {
     
 	//3
     public static void fizzBuzzComplete(int[] numbers){
-        for(int i=0;i<numbers.length;i++){
+        for(int i = 0;i < numbers.length; i++){
             if((numbers[i]%3==0) && (numbers[i]%5==0)){
                 System.out.println(numbers[i]+" fizzbuzz");
             }
-            else if(numbers[i]%3==0){
+            else if(numbers[i] % 3 == 0){
                 System.out.println(numbers[i]+" fizz");
             }
-            else if(numbers[i]%5==0) {
+            else if(numbers[i] % 5 == 0) {
                 System.out.println(numbers[i]+" buzz");
             }
             else {
@@ -75,14 +75,14 @@ public class fizzBuzz {
     
     //4
     public static void fizzBuzzFaster(int[] numbers){
-        for(int i=0;i<numbers.length;i++){
-            if(numbers[i]%15==0){
+        for(int i = 0; i < numbers.length; i++){
+            if(numbers[i] % 15 == 0){
                 System.out.println(numbers[i]+" fizzbuzz");
             }
-            else if(numbers[i]%3==0){
+            else if(numbers[i] % 3 == 0){
                 System.out.println(numbers[i]+" fizz");
             }
-            else if(numbers[i]%5==0) {
+            else if(numbers[i] % 5 == 0) {
                 System.out.println(numbers[i]+" buzz");
             }
             else {
