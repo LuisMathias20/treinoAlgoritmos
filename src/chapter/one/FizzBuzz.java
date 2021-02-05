@@ -1,10 +1,10 @@
-package chapterOne;
+package chapter.one;
 
-public class fizzBuzz {
+public class FizzBuzz {
 	public static void main(String[] args) {
 		int option = 1; //Select the function
 		
-		fizzBuzz.fizzBuzzSelection(option);
+		FizzBuzz.fizzBuzzSelection(option);
 	}
 	
 	//Function selector
@@ -12,16 +12,16 @@ public class fizzBuzz {
 		int[] numbers = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
 		
 		if(option == 1){
-            fizzBuzz.fizzBuzzWithThree(numbers);
+            FizzBuzz.fizzBuzzWithThree(numbers);
         }
         else if(option == 2){
-            fizzBuzz.fizzBuzzWithThreeAndFive(numbers);
+            FizzBuzz.fizzBuzzWithThreeAndFive(numbers);
         }
         else if(option == 3){
-            fizzBuzz.fizzBuzzComplete(numbers);
+            FizzBuzz.fizzBuzzComplete(numbers);
         }
         else if(option == 4){
-            fizzBuzz.fizzBuzzFaster(numbers);
+            FizzBuzz.fizzBuzzFaster(numbers);
         }
         else {
             System.out.print("Invalid option");

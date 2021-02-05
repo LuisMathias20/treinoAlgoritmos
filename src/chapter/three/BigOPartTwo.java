@@ -1,33 +1,33 @@
-package chapterThree;
+package chapter.three;
 
-import chapterTwo.bigOPartOne;
+import chapter.two.BigOPartOne;
 
-public class bigOPartTwo {
+public class BigOPartTwo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int option = 1;
 		
-		bigOPartTwo.selection(option);
+		BigOPartTwo.selection(option);
 	}
 
 	public static void selection(int option) {
 		int[] n = {-5,-2,0,1,4,8};
 		
 		if(option == 1) {
-			bigOPartTwo.simpleLoop(n);
+			BigOPartTwo.simpleLoop(n);
 		} 
 		else if(option == 2) {
-			bigOPartTwo.containsDuplicatesSlower(n);
+			BigOPartTwo.containsDuplicatesSlower(n);
 		}
 		else if(option == 3) {
-			bigOPartTwo.containsDuplicatesFaster(n);
+			BigOPartTwo.containsDuplicatesFaster(n);
 		}
 		else if(option == 4) {
-			bigOPartTwo.search(n);
+			BigOPartTwo.search(n);
 		}
 		else if(option == 5) {
-			bigOPartTwo.dichotomy(n);
+			BigOPartTwo.dichotomy(n);
 		}
 	}
 	
