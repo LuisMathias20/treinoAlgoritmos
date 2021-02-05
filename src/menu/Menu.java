@@ -1,9 +1,10 @@
 package menu;
 import java.io.IOException;
 import java.util.*;
-import chapterOne.*;
 
-public class menu {
+import chapter.one.*;
+
+public class Menu {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,10 +16,10 @@ public class menu {
         String input = cnsl.nextLine();
         
         if(Integer.parseInt(input) == 1){
-        	menu.chapterOne();
+        	Menu.chapterOne();
         }
         else if(Integer.parseInt(input) == 2){
-           menu.chapterTwo();
+           Menu.chapterTwo();
         }
 	}
 	
@@ -31,7 +32,7 @@ public class menu {
         System.out.println("4-Fizz Buzz faster");
         String input = cnsl.nextLine();
         
-        fizzBuzz.fizzBuzzSelection(Integer.parseInt(input));
+        FizzBuzz.fizzBuzzSelection(Integer.parseInt(input));
     }
 
 	public static void chapterTwo() {

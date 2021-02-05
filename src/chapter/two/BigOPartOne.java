@@ -1,35 +1,33 @@
-package chapterTwo;
+package chapter.two;
 
-import java.math.*;
-
-public class bigOPartOne {
+public class BigOPartOne {
 
 	public static void main(String[] args) {
 		int option = 6;
 		
-		bigOPartOne.bigOPartOneSelection(option);
+		BigOPartOne.bigOPartOneSelection(option);
 	}
 
 	public static void bigOPartOneSelection(int option) {
 		int n = 8;
 		
 		if(option == 1) {
-			bigOPartOne.constant(n);
+			BigOPartOne.constant(n);
 		} 
 		else if(option == 2) {
-			bigOPartOne.logN(n);
+			BigOPartOne.logN(n);
 		}
 		else if(option == 3) {
-			bigOPartOne.nLogNTime(n);
+			BigOPartOne.nLogNTime(n);
 		}
 		else if(option == 4) {
-			bigOPartOne.polynominalTime(n);
+			BigOPartOne.polynominalTime(n);
 		}
 		else if(option == 5) {
-			bigOPartOne.exponentialTime(n);
+			BigOPartOne.exponentialTime(n);
 		}
 		else if(option == 6) {
-			bigOPartOne.factorialTime(n);
+			BigOPartOne.factorialTime(n);
 		}
 	}
 	
